@@ -10093,7 +10093,8 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/anthropic/news",
         "parameters": {},
@@ -10117,7 +10118,8 @@ export default {
       "/research": {
         "path": "/research",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/anthropic/research",
         "parameters": {},
@@ -16383,7 +16385,8 @@ export default {
           "hyoban"
         ],
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "view": 3,
         "example": "/bilibili/ranking/all",
@@ -16650,8 +16653,7 @@ export default {
           "embed": "默认为开启内嵌视频, 任意值为关闭"
         },
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "location": "video-all.ts",
         "module": () => import('@/routes/bilibili/video-all.ts')
@@ -16805,8 +16807,7 @@ export default {
       "/announcement/:type": {
         "path": "/announcement/:type",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/binance/announcement/new-cryptocurrency-listing",
@@ -26159,7 +26160,8 @@ export default {
       "/telegraph/:category?": {
         "path": "/telegraph/:category?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "example": "/cls/telegraph",
         "parameters": {
@@ -43892,8 +43894,7 @@ export default {
       "/gnn/:category?": {
         "path": "/gnn/:category?",
         "categories": [
-          "anime",
-          "popular"
+          "anime"
         ],
         "view": 0,
         "example": "/gamer/gnn/1",
@@ -45401,7 +45402,8 @@ export default {
       "/live": {
         "path": "/live",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "view": 0,
         "example": "/gelonghui/live",
@@ -50541,8 +50543,7 @@ export default {
       "/miit/wjgs": {
         "path": "/miit/wjgs",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/miit/wjgs",
         "parameters": {},
@@ -51783,8 +51784,7 @@ export default {
           "nczitzk"
         ],
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "radar": [
           {
@@ -51836,8 +51836,7 @@ export default {
       "/nea/sjzz/ghs": {
         "path": "/nea/sjzz/ghs",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/nea/sjzz/ghs",
         "parameters": {},
@@ -52773,8 +52772,7 @@ export default {
         "name": "国家统计局 通用",
         "url": "www.stats.gov.cn",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "maintainers": [
           "bigfei",
@@ -53302,8 +53300,7 @@ export default {
     "apiRoutes": {},
     "url": "www.szlh.gov.cn",
     "categories": [
-      "government",
-      "popular"
+      "government"
     ],
     "description": "",
     "lang": "zh-CN",
@@ -54466,8 +54463,7 @@ export default {
       "/:section?/:type?/:user?": {
         "path": "/:section?/:type?/:user?",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "view": 0,
         "example": "/hackernews/threads/comments_list/dang",
@@ -65702,8 +65698,7 @@ export default {
       "/topic/text/:id": {
         "path": "/topic/text/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/jike/topic/text/553870e8e4b0cafb0a1bef68",
         "parameters": {
@@ -93053,7 +93048,8 @@ export default {
       "/user/:id/:type?": {
         "path": "/user/:id/:type?",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "example": "/picnob.info/user/xlisa_olivex",
         "parameters": {
@@ -95016,8 +95012,7 @@ export default {
       "/category/:caty": {
         "path": "/category/:caty",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/category/popular-with-women",
@@ -95159,8 +95154,7 @@ export default {
       "/pornstar/:username/:language?/:sort?": {
         "path": "/pornstar/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/pornstar/june-liu/www/mr",
@@ -118446,7 +118440,8 @@ export default {
       "/:id": {
         "path": "/:id",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/tophub/Om4ejxvxEN",
         "parameters": {
@@ -125011,8 +125006,7 @@ export default {
       "/keyword/:keyword/:routeParams?": {
         "path": "/keyword/:keyword/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 1,
         "example": "/weibo/keyword/RSSHub",
@@ -131970,8 +131964,7 @@ export default {
       "/posts/:usertype/:id": {
         "path": "/posts/:usertype/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/zhihu/posts/people/frederchen",
         "parameters": {
